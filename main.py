@@ -13,3 +13,5 @@ for tweety in tweepy.Cursor(api.user_timeline).items():
         print("Deleted:", tweety.text.encode("utf-8"))
     except:
         print("Failed to remove!: ", tweety.id)
+
+print("Test01")
